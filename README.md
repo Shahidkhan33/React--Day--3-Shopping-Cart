@@ -1,13 +1,13 @@
-# Src/App.js
+# src/App.js
 App.js consists of code for Navbar and product list is also written inside this js file
 
-# /Src/Components/footer
+# src/Components/Footer
 The code for footer section was written here
 
-# /Src/Components?product
+# src/Components/Product
 The code for "Add to Cart" and "Remove from Cart" is written here along with cart countdown
 
-# Src/App.css
+# src/App.css
 this file conssists of all the styling for the webpage
 
 # App working

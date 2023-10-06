@@ -1,0 +1,160 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  width: auto;
+  height: 70px;
+  background-color: #f0f0f0;
+}
+
+.nav-bar1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  height: 70px;
+  background-color: #f0f0f0;
+}
+
+.previousPrice {
+  text-decoration: line-through;
+  font-weight: lighter;
+}
+
+.cart {
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: rgba(250, 247, 247, 0.966);
+  color: rgb(12, 2, 2);
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  position: fixed;
+  left: 90%;
+  padding: 5px;
+
+}
+
+.navbtn {
+  border: 1px solid #f0f0f0;
+  font-weight: bolder;
+  padding: 0px;
+}
+
+.items {
+  border: 1px solid #ebd6d6;
+  margin-top: 5%;
+  margin-left: 10px;
+
+}
+
+.sub-topic {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: 200px;
+  background-color: #373737;
+  color: white;
+}
+
+.boxes {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dimensions {
+  margin-top: 100px;
+  width: 250px;
+  height: 150px;
+  border-radius: 5px 5px 0 0;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #bfbfbf;
+}
+
+.multiply {
+  font-size: large;
+}
+
+.parent {
+  width: 200px;
+  position: relative;
+}
+
+.dropdown {
+  width: 120px;
+  border-radius: 8%;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  color: black;
+  background-color: white;
+  align-items: center;
+  padding: 3px;
+}
+
+.product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 248px;
+  height: 200px;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #f0f0f0;
+  text-align: center;
+  background-color: #f0e9e9;
+}
+
+.product-name {
+  margin-bottom: 0;
+}
+
+.product-rating {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.product-price {
+  margin-bottom: 0;
+  margin-right: 2px;
+}
+
+.product-rupees {
+  margin-top: 0;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.buy {
+  height: 100x;
+}
+
+.footer {
+  margin-top: 80px;
+  width: auto;
+  height: 150px;
+  background-color: #373737;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productButton {
+  width: 100px;
+  padding: 2%;
+  border-radius: 10%;
+  position: relative;
+  left: 30%;
+  background-color: rgb(180, 180, 235);
+}
